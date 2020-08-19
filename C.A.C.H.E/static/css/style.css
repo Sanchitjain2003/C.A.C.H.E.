@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    background-color: #2C3336;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+nav {
+    background-color: #3CB7A1;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+nav li {
+    list-style: none;
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+.container {
+    display: flex;
+}
+.main {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.main-head {
+    font-weight: 600;
+    font-size: 60px;
+    color: cyan;
+}
+.main h4 {
+    font-size: 25px;
+}
+.main li {
+    line-height: 22px;
+}
+.box {
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.box h4 {
+    font-weight: 600;
+    color: #3CB7A1;
+    padding-top: 100px;
+}
+.h1r {
+    margin-top: 150px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(102, 100, 100, 0.75), rgba(255, 255, 255), rgba(0, 0, 0, 0));
+}
+button {
+    background-color: #3CB7A1;
+    height: 45px;
+    width: 160px;
+    border-radius: 25px;
+    color: white;
+    border: 0;
+}
+.btn-class {
+    padding-top: 20px;
+    padding-left: 320px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.side button{
+    transition: transform .2s;
+}
+.side button:hover{
+    background-color: cyan;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+form {
+    padding-top: 15px;
+}
+.other {
+    display: flex;
+    background-color: #3CB7A1;
+}
+.cht-l {
+    padding-left: 20px;
+}
+.cht-r {
+    padding-left: 140px;
+    padding-top: 68px;
+}
+.cht-b {
+    padding-left: 90px;
+}
+.other button {
+    background-color: #2C3336;
+    transition: transform .2s;
+}
+.other button:hover{
+    background-color: white;
+    color: #3CB7A1;
+    curser: pointer;
+    transform: scale(1.3);
+}
+.other{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:547px) {
+    nav {
+        background-color: #2C3336;
+    }
+   .cht-l h1{
+        color:cyan;
+    }
+    .cht-l{
+        padding-left:40px;
+    }
+    .cht-r{
+        padding-left:40px;
+    }
+    footer{
+        padding-left: 40px;
+    }
+    .other button{
+        background-color: white;
+        color:#2C3336;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav li {
+        color: #3CB7A1;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        margin-left: 80px;
+    }
+    .btn-class {
+        padding-left: 75px;
+    }
+    .main-head {
+        padding-left: 20px;
+    }
+    .other{
+        flex-direction: column;
+
+    }
+    footer{
+        flex-direction: column;
+    }
+    .other{
+        flex-direction: column;
+        width:100vw;
+        background-color: #2C3336;}
+    .cht-b{
+        padding-left:40px;
+    padding-bottom:20px;}
+    .side{
+        margin-top:-90px;}
+}
+footer {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#i-1,
+#i-2,
+#i-3 {
+    padding-left: 20px;
+    margin-left: 100px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+#i-3 {
+    padding-right: 90px;
+}
+
+.social {
+    justify-content: center;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 35px;
+    border-radius: 50%;
+}
+.fa:hover {
+    background-color: #3CB7A1;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: black;
+    color: white;
+}
+.mem-img{
+    width:74px;
+    height:78px;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+.mem-img:hover{
+    transform: scale(1.5);
+}
